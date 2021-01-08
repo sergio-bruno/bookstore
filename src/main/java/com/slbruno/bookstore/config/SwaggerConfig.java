@@ -1,4 +1,4 @@
-package com.slbruno.bookstoreconfig;
+package com.slbruno.bookstore.config;
 
 import static springfox.documentation.builders.RequestHandlerSelectors.basePackage;
 
