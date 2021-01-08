@@ -1,0 +1,16 @@
+package com.slbruno.bookstore.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api/hw/books")	
+public class BookStoreController {
+	
+	@GetMapping
+	public String hello() {
+		return "Hello world!";
+	}
+
+}
