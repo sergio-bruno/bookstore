@@ -13,7 +13,7 @@
 	<artifactId>bookstore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bookstore</name>
-	<description>gerenciamento de Bibliotecas</description>
+	<description>Gerenciamento de Bibliotecas</description>
 
 	<properties>
 		<java.version>15</java.version>
@@ -51,7 +51,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- swagger - Para permitir documentação e testes em cima da API -->
+		<!-- swagger - para permitir documentação e testes em cima da API -->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
@@ -61,6 +61,12 @@
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.9.2</version>
+		</dependency>
+		
+		<!-- actuator - auditoria e métricas, builds, commits, logs -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 	</dependencies>
 
