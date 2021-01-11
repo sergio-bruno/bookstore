@@ -16,5 +16,5 @@ db migrations, etc.
 Outline the steps to test or reproduce the PR here.
 
 ```sh
-mvn pring-boot:run
+mvn spring-boot:run
 ```
