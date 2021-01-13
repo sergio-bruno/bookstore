@@ -61,6 +61,12 @@
             <scope>test</scope>
         </dependency>
 
+		<!-- jakarta bean validation -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+
 		<!-- swagger - para permitir documentação e testes em cima da API -->
 		<dependency>
 			<groupId>io.springfox</groupId>
